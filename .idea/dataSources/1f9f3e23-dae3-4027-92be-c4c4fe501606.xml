@@ -1111,5 +1111,31 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
+    <table id="279" parent="3" name="users"/>
+    <column id="280" parent="279" name="UserID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="281" parent="279" name="LastName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="282" parent="279" name="FirstName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="283" parent="279" name="Address">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="284" parent="279" name="City">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
   </database-model>
 </dataSource>
