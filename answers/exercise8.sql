@@ -1,13 +1,23 @@
-
-USE myNEWDATABASE;
-CREATE TABLE users(
-UserID INT,
-LastName VARCHAR(255),
-FirstName VARCHAR(255),
-Address VARCHAR(255),
-City VARCHAR(255)
+USE myNewDB;
+CREATE TABLE Students(
+    StudentName VARCHAR(255),
+    Address     VARCHAR(255),
+    City        VARCHAR(255),
+    PostalCode  VARCHAR(255),
+    Country     VARCHAR(255)
 );
-SHOW TABLES;
-INSERT INTO users( userid, lastname, firstname, address, city)
-VALUES (200,'Aarti', 'Kansal','Phoenixville', 'Phoenixville');
-SELECT * FROM users
+
+INSERT INTO Students( StudentName, Address, City, PostalCode, Country)
+VALUES ('JaneDoe','57 Unoin St','Glasgow','G13RB','Scotland' );
+
+INSERT INTO Students( StudentName, Address, City, PostalCode, Country)
+VALUES ('Smith','57 Unoin St','Philadelphia','19456','USA' );
+
+SELECT * FROM Students;
+
+Desc Students;
+
+
+
+
+

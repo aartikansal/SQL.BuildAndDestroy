@@ -1,1 +1,2 @@
-DROP TABLE users;
+USE myNewDB;
+Drop table Users;

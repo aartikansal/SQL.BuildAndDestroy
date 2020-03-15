@@ -11,7 +11,7 @@
       <Current>1</Current>
       <Collation>utf8_general_ci</Collation>
     </schema>
-    <schema id="3" parent="1" name="myNEWDATABASE">
+    <schema id="3" parent="1" name="myNewDB">
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="mysql">
@@ -1111,35 +1111,56 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="279" parent="3" name="users"/>
-    <column id="280" parent="279" name="UserID">
+    <table id="279" parent="3" name="Students"/>
+    <table id="280" parent="3" name="users"/>
+    <column id="281" parent="279" name="StudentName">
       <Position>1</Position>
-      <DataType>int|0s</DataType>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="279" name="LastName">
+    <column id="282" parent="279" name="Address">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="279" name="FirstName">
+    <column id="283" parent="279" name="City">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="279" name="Address">
+    <column id="284" parent="279" name="PostalCode">
       <Position>4</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="279" name="City">
+    <column id="285" parent="279" name="Country">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="279" name="BIRTHDAY">
-      <Position>6</Position>
-      <DataType>date|0s</DataType>
+    <column id="286" parent="280" name="UserID">
+      <Position>1</Position>
+      <DataType>int|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="280" name="LastName">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="288" parent="280" name="FirstName">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="280" name="Address">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="280" name="City">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
   </database-model>

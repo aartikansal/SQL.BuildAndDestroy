@@ -1,4 +1,4 @@
-USE myNEWDATABASE;
+USE myNewDB;
 CREATE TABLE users(
 UserID INT,
 LastName VARCHAR(255),
@@ -10,4 +10,5 @@ SHOW TABLES;
 INSERT INTO users( userid, lastname, firstname, address, city)
 VALUES (200,'Aarti', 'Kansal','Phoenixville', 'Phoenixville');
 SELECT * FROM users;
-TRUNCATE TABLE users;
+
+TRUNCATE TABLE   users;

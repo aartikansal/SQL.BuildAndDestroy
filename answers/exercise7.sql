@@ -1,6 +1,6 @@
-SHOW TABLES;
-SELECT * FROM users;
-ALTER TABLE users
-DROP BIRTH;
-SELECT * FROM users
 
+Use myNewDB;
+SHOW TABLES;
+ALTER TABLE users
+DROP COLUMN Birthday;
+DESC users;
